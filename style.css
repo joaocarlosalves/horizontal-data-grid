@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+    line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h6 {
+    width: 100%;
+    font-size: 35px;
+    color: blue;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 50px 10%;
+    border: 1px solid #cbcbcb;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.hdg {
+    width: 100%;
+    text-align: right;
+    border-radius: 10px;
+}
+
+.hdg thead tr th {
+    color: #fff;
+    background: #B91514;
+    font-size: 16px;
+    font-weight: bold;
+    border-right: 1px solid white;
+}
+
+.hdg thead tr th:last-child {
+    border: none;
+}
+
+.hdg tbody tr th {
+    font-size: 14px;
+}
+
+.hdg-main-title {
+    background: #fff!important;
+    color: #B91514!important;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hdg th {
+    background: #4C4C4C;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.hdg td,
+.hdg th {
+    padding: 0 10px 3px 0;
+    vertical-align: bottom;
+    height: 45px;
+    border-bottom: 1px solid #cbcbcb;
+}
+
+.hdg td {
+    font-size: 14px;
+    border-right: 1px solid #cbcbcb;
+}
